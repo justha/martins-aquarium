@@ -1,0 +1,13 @@
+
+
+.header {
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.mainSection {
+    display: box;
+    border: 2rem dotted blueviolet;
+}
+
