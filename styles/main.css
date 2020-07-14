@@ -1,13 +1,24 @@
+@import "./fish.css";
+@import "./locations.css";
+@import "./quotes.css";
+@import "./tips.css";
 
 
 .header {
-    text-align: center;
-    font-size: 1rem;
+    display: flex;
+    justify-content: left;
 }
 
+.logo {
+    height: 5rem
+}
 
-.mainSection {
-    display: box;
-    border: 2rem dotted blueviolet;
+.headline {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
 }
 
