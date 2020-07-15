@@ -1,6 +1,7 @@
 .location {
-    border: 1px dotted brown;
-    background-color: rosybrown;
+    border: 1px dotted #353535;
+    background-color:#3c6e71;
     padding: 1rem;
     text-align: center;
+    
 }
