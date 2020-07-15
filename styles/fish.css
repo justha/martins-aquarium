@@ -1,5 +1,6 @@
-.fishs {
+.fish {
     border: 1px dotted royalblue;
+    background-color: cornflowerblue;
     padding: 1rem;
     text-align: center;
 }

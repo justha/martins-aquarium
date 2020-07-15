@@ -1,5 +1,6 @@
-.locations {
-    border: 1px dotted orange;
+.location {
+    border: 1px dotted brown;
+    background-color: rosybrown;
     padding: 1rem;
     text-align: center;
 }

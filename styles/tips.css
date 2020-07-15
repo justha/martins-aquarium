@@ -1,5 +1,6 @@
-.tips {
-    border: 1px dotted forestgreen;
+.tip {
+    border: 1px solid forestgreen;
+    background-color: paleturquoise;
     padding: 1rem;
     text-align: center;
 }

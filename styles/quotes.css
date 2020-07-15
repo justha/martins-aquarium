@@ -1,5 +1,6 @@
-.quotes {
-    border: 1px dotted darkgoldenrod;
+.quote {
+    border: 1px solid yellowgreen;
+    background-color: palegreen;
     padding: 1rem;
     text-align: center;
 }
