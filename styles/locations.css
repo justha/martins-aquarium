@@ -6,3 +6,12 @@
 .location_image {
     height: 6rem;
 }
+
+.location_name {
+    font-weight: bold;
+}
+
+.location_url {
+    font-weight: bold;
+    font-style: italic;
+}

@@ -2,28 +2,28 @@
 
 const fishCollection = [
     {   
-        Name: "Chartreuse (Char)",
-        Species: "yellow tang",
-        Length in Inches: 8
-        Location: "Hawaiian Islands",
-        Food: "benthic turf algae", 
-        Image: "./images/fish_yellow_tang.jpg"
+        name: "Chartreuse (Char)",
+        species: "yellow tang",
+        lengthInches: 8
+        location: "Hawaiian Islands",
+        food: "benthic turf algae", 
+        image: "./images/fish_yellow_tang.jpg"
     }, 
     {
-        Name: "Paul Jr. (PJ)", 
-        Species: "pajama cardinalfish", 
-        Length in Inches: 3
-        Location: "Western Pacific Ocean (Java, Fiji, Ryukyu Islands, Great Barrier Reef",
-        Food: "small crustaceans, mysis shrimp, brine shrimp", 
+        name: "Paul Jr. (PJ)", 
+        species: "pajama cardinalfish", 
+        lengthInches: 3
+        location: "Western Pacific Ocean (Java, Fiji, Ryukyu Islands, Great Barrier Reef",
+        food: "small crustaceans, mysis shrimp, brine shrimp", 
         Image: "./images/fish_pajama_cardinalfish.jpg"
     }, 
     {
-        Name: "Dorothy (Dotty)",
-        Species: "royal dottyback", 
-        Length in Inches: 3
-        Location: "Indo-Pacific Ocean"
-        Food: "brine shrimp, krill that contain carotenoids", 
-        Image: "./images/fish_royal_dottyback.jpg"
+        name: "Dorothy (Dotty)",
+        species: "royal dottyback", 
+        lengthInches: 3
+        location: "Indo-Pacific Ocean"
+        food: "brine shrimp, krill that contain carotenoids", 
+        image: "./images/fish_royal_dottyback.jpg"
     }
 ]
 
@@ -32,4 +32,8 @@ const fishCollection = [
 
 export const useFish = () => {
     return fishCollection.slice()
+}
+
+export const addFish = (fishObj) => {
+    fishCollection.push(fishObj)
 }

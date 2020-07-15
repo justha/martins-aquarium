@@ -5,3 +5,7 @@
 .fish_image {
     height: 5rem;
 }
+
+.fish_name {
+    font-weight: bold;
+}
