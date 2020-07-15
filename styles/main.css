@@ -45,8 +45,8 @@ h2, h3, h4, h5 {
 .card {
     font-size: .75rem;
     font-weight: normal;
-    color: #46494C;
-    background-color: #68a691;
+    color: #dcdcdc;
+    background-color: #4c5c68;
     text-align: left;
     padding: 1rem;
     margin: 2%;

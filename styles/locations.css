@@ -5,6 +5,8 @@
 
 .location_image {
     height: 6rem;
+    padding: .25rem;
+    
 }
 
 .location_name {

@@ -1,8 +1,8 @@
 import {useFish} from "./fishData.js"
-import {fishHTML} from ".fish.js"
+import {fishHTML} from "./fish.js"
 
 export const fishList = () => {
-    const contentElement = document.querySelector(".content--left")
+    const contentElement = document.querySelector(".container--left")
 
 const fishs = useFish ()
 
@@ -12,7 +12,7 @@ for (const currentFishObj of fishs) {
 }
 
 contentElement.innerHTML += `
-    <article class="fishes">
+    <article class="fishs">
         ${fishHTMLRepresentations}
     </article>
 `
