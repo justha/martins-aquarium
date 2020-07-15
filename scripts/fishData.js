@@ -1,3 +1,5 @@
+//this module's responsibility is to STORE the data and nothing else
+
 const fishCollection = [
     {   
         Name: "Chartreuse (Char)",
@@ -24,3 +26,10 @@ const fishCollection = [
         Image: "./images/fish_royal_dottyback.jpg"
     }
 ]
+
+//export function so that another module can import it
+//.slice() to work with a COPY of fishCollection; not the raw data
+
+export const useFish = () => {
+    return fishCollection.slice()
+}
