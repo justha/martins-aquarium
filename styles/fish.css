@@ -1,10 +1,7 @@
 .fish {
-    border: 1px solid #353535;
-    background-color: #284b63;
     padding: 1rem;
-    text-align: center;
 }
 
 .fish_image {
-    height: 7rem;
+    height: 5rem;
 }
