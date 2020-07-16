@@ -2,9 +2,9 @@ import {useFish} from "./fishData.js"
 import {fishHTML} from "./fish.js"
 
 export const fishList = () => {
-    const contentElement = document.querySelector(".container--left")
+    const contentElement = document.querySelector("h2")
 
-const fishs = useFish ()
+const fishs = useFish()
 
 let fishHTMLRepresentations = ""
 for (const currentFishObj of fishs) {

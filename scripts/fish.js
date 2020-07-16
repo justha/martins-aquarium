@@ -1,4 +1,3 @@
-
 export const fishHTML = (fishObj) => {
     return `
         <section class="fish card">

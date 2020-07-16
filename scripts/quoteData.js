@@ -8,7 +8,7 @@ const quoteCollection = [
         author: "― Irving Berlin"
     }, 
     {
-        text: "No good fish goes anywhere without a porpoise."
+        text: "No good fish goes anywhere without a porpoise.",
         author: "― Lewis Carroll"
     }
 ]
