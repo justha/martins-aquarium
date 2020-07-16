@@ -3,5 +3,5 @@ export const tipHTML = (tipObj) => {
         <section class="tip card">
             <div class="tip_text">${tipObj.text}</div>
         </section>
-    `
+        `
 }
