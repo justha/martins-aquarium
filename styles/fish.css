@@ -1,0 +1,13 @@
+.fish {
+    padding: 1rem;
+}
+
+.fish_image {
+    height: 5rem;
+    padding: 1rem;
+    
+}
+
+.fish_name {
+    font-weight: bold;
+}

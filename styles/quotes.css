@@ -1,0 +1,9 @@
+.quote {
+    padding: 1rem;
+}
+
+.quote_author {
+    font-style: italic;
+    padding: 5% 0 0 0;
+    text-align: right;
+}

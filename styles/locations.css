@@ -1,0 +1,23 @@
+.location {
+    padding: 1rem;
+    
+}
+
+.location_image {
+    height: 6rem;
+    padding: .25rem;
+    
+}
+
+.location_name {
+    font-weight: bold;
+}
+
+.location_url {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.location_desc {
+    padding: 5% 0 0 0;
+}
