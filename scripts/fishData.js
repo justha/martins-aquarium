@@ -29,40 +29,40 @@ const fishCollection = [
         name: "Reign",
         species: "the rainbow fish", 
         lengthInches: 1, 
-        location: "Canada",
+        location: "Finger Lakes",
         food: "Skittles, Blue Razz Pop Rocks", 
         image: "./images/fish_rainbow.jpeg"
     }, 
     {
         name: "Wonda Fish",
-        species: "", 
+        species: "onefish", 
         lengthInches: 1, 
-        location: "",
+        location: "children's storybook",
         food: "green eggs", 
         image: "./images/fish_onefish.jpeg"
     }, 
     {
         name: "Theodor II Fish",
-        species: "", 
+        species: "twofish", 
         lengthInches: 1, 
-        location: "",
+        location: "rhyming waters",
         food: "ham", 
         image: "./images/fish_twofish.jpeg"
     }, 
     {
         name: "Dr. Reddington Seuss",
-        species: "", 
+        species: "redfish", 
         lengthInches: 1, 
-        location: "",
-        food: "", 
+        location: "50-word ocean",
+        food: "does not eat green eggs", 
         image: "./images/fish_redfish.jpeg"
     }, 
     {
         name: "Blu Geisel",
-        species: "", 
+        species: "bluefish", 
         lengthInches: 1, 
-        location: "",
-        food: "", 
+        location: "Boundary Waters",
+        food: "does not eat ham", 
         image: "./images/fish_bluefish.jpeg"
     }
 ]
