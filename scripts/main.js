@@ -1,7 +1,4 @@
-import {useFish} from "./fishData.js"
 
-const allFish = useFish()
+import {fishList} from "./fishList.js"
 
-for (const fishObj of allFish) {
-    console.log(fishObj)
-}
+fishList()

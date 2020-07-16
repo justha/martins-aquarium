@@ -17,3 +17,7 @@
     font-weight: bold;
     font-style: italic;
 }
+
+.location_desc {
+    padding: 5% 0 0 0;
+}
